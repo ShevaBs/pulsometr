@@ -1,0 +1,86 @@
+
+@media (max-width: 768px) {
+	.header {
+		&__official{
+			display: none;
+		}
+	}
+
+	.promo{
+		&__wrapper{
+			align-items: center;
+			text-align: center;
+		}
+
+		&__link{
+			a {
+				display: block;
+			}
+		}
+	}
+
+	.advantages {
+		&__item{
+			flex: 0 0 100%;
+		}
+
+		&__text {
+			width: 289px;
+			margin: 26px auto 0 auto;
+		}
+	}
+
+	.title--left {
+		font-size: 24px;
+	}
+}
+
+@media (max-width: 576px) {
+	.header{
+		&__contacts {
+			display: none;
+		}
+	}
+
+	.promo {
+		&__header {
+			font-size: 30px;
+		}
+
+		&__subheader {
+			font-size: 20px;
+		}
+
+		&__icon {
+			font-size: 13px;
+		}
+
+		&__icons {
+			justify-content: center;
+		}
+	}
+
+	.title {
+		font-size: 28px;
+	}
+
+	
+	.title--left {
+		font-size: 20px;
+	}
+
+	.advantages {
+		padding: 50px 0 58px 0;
+		&__icon {
+			margin-top: 45px;
+		}
+	}
+
+	.consultation{
+		padding-top: 80px;
+		&__descr {
+			font-size: 14px;
+			margin-top: 60px;
+		}
+	}
+}
